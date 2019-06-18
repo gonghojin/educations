@@ -16,5 +16,5 @@
 ### Decorator 구성
 + Component: interface(./Cookie)
 + ComponentImplementation: decorate를 할 원본 code(./CookieBrave)
-+ Decorator: component decorator
-+ ExtendedComponent: 여분의 기능을 추가하는 component decorator
++ Decorator: component decorator(./Topping)
++ ExtendedComponent: 여분의 기능을 추가하는 component decorator(./ToppingMilk & Chocolate)
