@@ -8,6 +8,6 @@
 
 #### 구성  
 + Command : Command 캡슐화, 실행될 기능에 대한 인터페이스, 실행될 기능을 execute 메서드로 선언  
-+ ConcreteCommand : 실제로 실행되는 기능을 구현, Command라는 인터페이스를 구현, Receiver에서 Command 위임
-+ Invoker : 기능의 실행을 요청하는 호출자 클래스  
-+ Receiver : command execute에 책임. execute 메소드 구현시 클래
++ ConcreteCommand(./TurnOff~, ./TurnOn) : 실제로 실행되는 기능을 구현, Command라는 인터페이스를 구현, Receiver에서 Command 위임
++ Invoker(./Switch) : 기능의 실행을 요청하는 호출자 클래스  
++ Receiver(./Light) : command execute에 책임. execute 메소드 구현시 클래스
